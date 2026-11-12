@@ -6,14 +6,16 @@
 /*   By: lde-san- <lde-san-@student.42porto.com>     █░  ░░░ ░░ ░░░  ░█       */
 /*                                                   ███████░░░░███████       */
 /*   Created: 2026/11/04 17:22:04 by lde-san-       ░▒▒██ ▓  ██  ▓ ██▒▒░      */
-/*   Updated: 2026/11/10 23:11:39 by lde-san-           ▒ ░██  ██░ ▒          */
+/*   Updated: 2026/11/12 20:34:08 by lde-san-           ▒ ░██  ██░ ▒          */
 /*                                                         ██████             */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Bureaucrat.hpp"
 #include "Form.hpp"
+#include <string>
 #include <iostream>
+#include <exception>
 
 		     //******************************************************//
 	        //             Constructors & Destructor                //
@@ -155,7 +157,7 @@ void Bureaucrat::signForm(Form &to_fill)
 {
 	try
 	{
-		to_fill.beSigned(this);
+		to_fill.beSigned(*this);
 
 		std::cout << this->name
 				  << " signed "

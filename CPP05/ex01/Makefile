@@ -6,13 +6,13 @@
 #    By: lde-san- <lde-san-@student.42porto.com>     █░  ░░░ ░░ ░░░  ░█        #
 #                                                    ███████░░░░███████        #
 #    Created: 2026/11/04 17:19:03 by lde-san-       ░▒▒██ ▓  ██  ▓ ██▒▒░       #
-#    Updated: 2026/11/10 20:00:32 by lde-san-           ▒ ░██  ██░ ▒           #
+#    Updated: 2026/11/12 20:43:43 by lde-san-           ▒ ░██  ██░ ▒           #
 #                                                          ██████              #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = bureau
-LIB = $(OBJ_DIR)bureaucrat.a
+NAME = form_tests
+LIB = $(OBJ_DIR)form.a
 
 NEOR	= \033[3m\033[38;2;255;153;51m
 MINT	= \033[1;38;2;55;250;133m
