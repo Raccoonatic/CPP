@@ -6,7 +6,7 @@
 /*   By: lde-san- <lde-san-@student.42porto.com>     █░  ░░░ ░░ ░░░  ░█       */
 /*                                                   ███████░░░░███████       */
 /*   Created: 2026/11/12 12:21:09 by lde-san-       ░▒▒██ ▓  ██  ▓ ██▒▒░      */
-/*   Updated: 2026/11/12 20:36:32 by lde-san-           ▒ ░██  ██░ ▒          */
+/*   Updated: 2026/11/13 12:58:34 by lde-san-           ▒ ░██  ██░ ▒          */
 /*                                                         ██████             */
 /*                                                                            */
 /* ************************************************************************** */
@@ -165,7 +165,7 @@ const char *Form::GradeTooLowException::what() const throw()
 {
 	char *ret;
 
-	ret = (char *)BL"Oops"BW","HT" too small sorry"BW". "OG"Min grade is "GD"150"BW"."RT;
+	ret = (char *)BL"Oops"BW","HT" the grade is too low sorry"BW"."RT;
 
 	return (ret);
 }
